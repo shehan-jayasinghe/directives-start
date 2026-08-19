@@ -1,27 +1,33 @@
-# MyFirstApp
+# Angular Directives Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+A starter Angular project focused on learning Angular directives and template behavior.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project provides a simple environment for experimenting with Angular directives, component templates, event handling, and reusable UI behavior.
 
-## Code scaffolding
+## Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install
+ng serve
+```
 
-## Build
+Open `http://localhost:4200/` in your browser.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Common Commands
 
-## Running unit tests
+```bash
+ng serve
+ng build
+ng test
+ng generate directive directive-name
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Learning Goals
 
-## Running end-to-end tests
+Use this project to practice structural directives, attribute directives, template expressions, event handling, and reusable component behavior.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Notes
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Follow the Angular CLI and dependency versions already configured in the repository when developing locally.
